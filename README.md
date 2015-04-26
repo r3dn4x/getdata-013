@@ -1,5 +1,5 @@
 # getdata-013
-#### Course project for Coursera's Getting and Cleaning Data class
+### Course project for Coursera's Getting and Cleaning Data class
 
 The goal of the project was to merge, select and clean up data from two different datasets (split into training and test sets) from Samsung Galaxy S accelometer and gyroscope measurements [1].
 
