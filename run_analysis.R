@@ -50,7 +50,7 @@
         activity_labels <- as.character(read.table("activity_labels.txt")[,2])
         temp <- mapvalues(dataset[,2], as.character(sort(unique(dataset[,2]))),
                   activity_labels)
-        dataset[,2] <- gsub("", "", tolower(temp))
+        dataset[,2] <- gsub("_", "", tolower(temp))
 
 #Create a tidy dataset with mean for all variables according to subject and
 #activity levels. Since aggregtae will try to find means for subjects and
