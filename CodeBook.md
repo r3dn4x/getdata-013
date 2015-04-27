@@ -2,11 +2,11 @@
 
 This code book describes the variables that were selected for the final tidy dataset and how they were originally calculated.
 
-#####Subjects
+####Subjects
 
 There are a total of 30 subjects each with a unique integer identifier (1-30). This includes 21 subjects from the training dataset and 9 subjects from the test dataset.
 
-#####Activity
+####Activity
 
 There are a total of six activitiess measured in the original datasets. These were coded numerically and in the final _tidy_dataset.txt_ these were replaced by their corresponding label names:
 
@@ -17,7 +17,7 @@ There are a total of six activitiess measured in the original datasets. These we
   5. standing
   6. laying
 
-#####Feature selection
+####Feature selection
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -46,12 +46,12 @@ These signals were used to estimate variables of the feature vector for each pat
   fBodyGyroMag  
   fBodyGyroJerkMag
   
-The set of variables that were estimated from these signals are: 
+**The set of variables that were estimated from these signals are:** 
 
   Mean: Mean value  
   Std: Standard deviation
   
-The corresponding variable names are:
+**The corresponding variable names are:**
 
   tBodyAcc Mean X  
   tBodyAcc Mean Y  
